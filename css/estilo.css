@@ -1,0 +1,177 @@
+/* cor de fundo da página */
+body{
+    background-color: rgb(198, 230, 252);
+    
+}
+
+img{ background-image: url("img/logo.jpg");
+    background-position: center center;
+    display: block;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+}
+
+/* menu */
+nav{
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+nav a {
+    display: inline-block;
+    width: 240px;
+
+    background: #D5A437;
+    color: #102C50;
+
+    text-align: center;
+    text-decoration: none;
+
+    padding: 18px;
+    border-radius: 5px;
+
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+
+    margin: 3px;
+
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: white;
+    background: #102C50;
+    transform: scale(1.05);
+}
+
+.cadastrar2 {
+    text-align: justify;
+    max-width: 1500px;
+    margin: 50px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+    font-family: Arial,  sans-serif;
+        
+    color: blue;
+    text-decoration: none;
+    text-decoration: underline;
+}
+    a:hover{
+    color: white;}
+    
+
+
+/* titulo página inicial*/
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 3px;
+}
+
+
+/*subtitulo página inicial*/
+.subtitulo{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+
+h2{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-width: 1500px;
+    margin: 50px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+h3{
+    text-align: justify;
+    max-width: 1500px;
+    margin: 50px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Arial, sans-serif;
+}
+
+h4{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-width: 1500px;
+    margin: 50px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/*tamanho da fonte*/
+p{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    max-width: 1500px;
+    margin: 50px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.divulgue{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-width: 1500px;
+    margin: 50px;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.encontre{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    
+}
+
+/*borda do formulário*/
+#formCadastro{
+    max-width: 850px;
+    width: fit-content;
+    margin: 15px auto;
+    padding: 15px;
+
+
+    border: 2px solid;
+    border-radius: 12 px blue;
+
+    box-shadow: 0 3px blue;
+}
+
+#formPesquisa{
+    width: fit-content;
+    margin: 15px auto;
+    padding: 15px;
+
+
+    border: 2px solid;
+    border-radius: 12 px blue;
+
+    box-shadow: 0 3px blue;
+}
+
+footer{
+    text-align: end;
+    color: blue;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa de Serviços</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <img src="img/logo.png" alt="logomarca">
+</head>
+
+    <nav>
+        <br><a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="cadastro.html">Cadastrar negócio</a>
+    </nav>
+
+    <h1>Pesquisa de Serviços</h1>
+
+<body>
+        <p class="encontre">
+            Encontre profissionais e empresas de Jaguariúna.
+            Pesquise por nome, categoria ou bairro.
+        </p>
+
+        <br><br><form id="formPesquisa">
+        <div>
+            <label for="pesquisa">Nome do profissional</label>
+            <input
+            type="text"
+            id="pesquisa"
+            placeholder="Ex: Comércio, prestador de serviços..."
+            >
+        </div>
+
+        <br><div>
+            <label for="Categoria">Seleciona a Categoria</label>
+
+            <select id="Categoria">
+                <option value="Construção e reformas">Prestadores de Serviços</option>
+                <option value="Beleza e estética">Beleza e estética</option>
+                <option value="Decoração de festas">Decoração de festas</option>
+                <option value="Brinquedos e cadeiras">Brinquedos e cadeiras</option>
+                <option value="Setor de alimentos">Setor de alimentos</option>
+            </select>
+        </div>
+
+
+        <br><div>
+            <label for="bairro">Selecione o bairro</label>
+
+            <select id="bairro">
+            <option value="">Todos os bairros</option>
+            <option value="Centro">Centro</option>
+            <option value="Reserva da Barra">Reserva da Barra</option>
+            <option value="Jardim Europa">Jardim Europa</option>
+            <option value="Jardim Mauá">Jardim Mauá</option>
+            </select>
+        </div>
+
+        <br><button onclick="pesquisarServiços">Pesquisar Serviços</button>
+        <div id="resultados"></div>
+    </form>
+
+
+        
+</body>
+
+    <br>
+    <br>
+    <br>
+    <footer>© 2027 Onde Tem Jaguariúna - Conectando pessoas e negócios.</footer>
+    
+</html>

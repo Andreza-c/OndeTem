@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastrar Negócio</title>
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <img src="img/logo.png" alt="logomarca">
+    </head>
+
+        <br><nav>
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="cadastro.html">Cadastrar negócio</a>
+        </nav>
+
+    <body>
+        <h1>Cadastro de Profissionais e Empresas.</h1>
+        <p class="divulgue">Divulgue seu negócio e seja encontrado
+            por clientes de Jaguariúna e região.
+            Preencha os dados abaixo para apresentar seus serviços.
+        </p>
+
+        <br><br><form id="formCadastro">
+
+            <div>
+                <br><label for="nome">Nome da empresa ou profissional</label>
+                <input
+                type="text"
+                id="nome"
+                placeholder="Digite o nome do seu negócio"
+                required>
+            </div>
+            
+            <div>
+                <br><label for="categoria">Categoria do serviço</label>
+
+                <select id="categoria" required>
+                    <option value="Selecione uma categoria"></option>
+                    <option>Construção Civil</option>
+                    <option>Saude e Estética</option>
+                    <option>Decoração de Festas</option>
+                    <option>Brinquedos e Cadeiras</option>
+                    <option>Setor de Alimentos</option>
+                    <option>Outros Serviços</option>
+                </select>
+            </div>
+
+            <div>
+                <br><label for="decricao">Descrição do Serviço</label>
+                <textarea id="descricao" rows="8" cols="30"
+                placeholder="Descreva o serviço que você oferece"></textarea>
+            </div>
+
+            <div>
+                <br><label for="whatsapp">WhatsApp</label>
+                <input type="tel"
+                id="whatsapp"
+                placeholder="(19) 99999-9999"
+                required>
+            </div>
+
+            <div>
+                <br><label for="endereco">Endereço</label>
+                <input type="text"
+                id="endereco"
+                placeholder="Ex: Centro - Jaguariúna-SP."
+                required>
+            </div>
+
+            <div>
+                <br><label for="foto">Foto ou logotipo do seu negócio.</label>
+                <input type="file"
+                id="foto"
+                accept="image/*">
+
+                <br><img
+                id="preview"
+                class="foto-preview"
+                alt="Prévia da imagem selecionada">
+            </div>
+
+            <button type="submit">Cadastrar meu negócio</button>
+
+        </form>
+
+        <div>
+
+            <h3>Cadastro preenchido com sucesso!</h3>
+            <div id="dadosCadastro"></div>
+
+            <p>
+                <strong>Prévia do anúncio:</strong>
+            </p>
+
+            <a
+            id="linkWhatsapp"
+            class="whatsapp"
+            target="_blank"
+            rel="noopener noreferrer">Falar pelo WhatsApp
+        </a>
+
+        </div>
+
+    </body>
+    
+    <br>
+    <br>
+    <br>
+    <footer>© 2027 Onde Tem Jaguariúna - Conectando pessoas e negócios.</footer>
+
+</html>
